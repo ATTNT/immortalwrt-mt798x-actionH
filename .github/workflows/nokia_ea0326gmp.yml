@@ -15,7 +15,8 @@ name: nokia-ea0326gmp immortalwrt-mt798x-24.10 Builder
 on:
   repository_dispatch:
   workflow_dispatch:
-
+  watch:
+    types: started
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
   REPO_BRANCH: openwrt-21.02
